@@ -37,7 +37,6 @@ ForEach ($esxi_host in $esxi_hosts) {
 	
 	#Lets get everything into interger format
 	[int]$max_vcpus=$phys_host_cpus
-	$max_vcpus=$max_vcpus*5
 	
 	[int]$total_vcpus=$vm_num_cpus
 	
